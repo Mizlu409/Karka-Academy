@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML TABLE</h1>
+    <table>
+        <thead>
+           <tr>
+              <th>company</th>
+              <th>contact</th>
+              <th>country</th>
+              </tr>
+              <tr>
+                <td>infoysy</td>
+                <td>sunil</td>
+                <td>india</td>
+            </tr>
+             <tr>
+                <td>TCS</td>
+                <td>ajan</td>
+                <td>America</td>
+             </tr>
+             <tr>
+                <td>wipro</td>
+                <td>sham</td>
+                <td>dubai</td>
+             </tr>
+        </thead>
+    </table>     
+    
+    <h1>simple table view</h1>
+
+    <table border=2>
+        <thead>
+           <tr>
+              <th>country</th>
+              <th>capital</th>
+              <th>population</th>
+           </tr>
+        </thead>
+        <tbody>
+           <tr>
+              <td>USA</td>
+              <td>Washing ton</td>
+              <td>328 million</td>
+             
+              
+  
+           </tr>
+           <tr>
+              <td>india</td>
+              <td>new delhi</td>
+              <td>1.366 billion</td>
+              
+           </tr>
+           <tr>
+              <td>japan</td>
+              <td>tokya</td>
+              <td>126million</td>
+              
+           </tr>
+          
+        </tbody>
+       </table>
+
+       <h1>HTML colspan Attribute</h1>
+
+       <table border=2>
+        <thead>
+           <tr>
+              <th>Name</th>
+              <th>Expense</th>
+         
+           </tr>
+        </thead>
+        <tbody>
+           <tr>
+              <td>Arun</td>
+              <td>10</td>
+              
+             
+             </tr>
+           <tr>
+              <td>priya</td>
+              <td>8</td>
+             
+              
+           </tr>
+           <tr>
+              <td colspan="2">sum:18</td>
+             
+              
+           </tr>
+          
+        </tbody>
+       </table>
+
+
+       
+       <h1>Table with Name and Age</h1>
+       <table border="2">
+           <thead>
+              <tr>
+                 <th colspan="2">Full Name</th>
+                 <th>Age</th>
+               
+                 </tr>
+                 <tr>
+                   <td>fabio</td>
+                   <td>cimo</td>
+                   <td>20</td>
+               </tr>
+                <tr>
+                   <td>jasmine</td>
+                   <td>brown</td>
+                   <td>18</td>
+                </tr>
+                <tr>
+                   <td>james</td>
+                   <td>wick</td>
+                   <td>35</td>
+                </tr>
+                <tr>
+                    <td>donald</td>
+                    <td>dawn</td>
+                    <td>29</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Average Age</td>
+                    <td>22</td>
+                </tr>
+           </thead>
+       </table>  
+
+       <h1>combing colspan and rowspan</h1>
+       
+       <table border="2">
+        <thead>
+            <tr>
+            <th colspan="2" rowspan="2">Header</th>
+            <th>data</th>
+            </tr>
+            <tr>
+                <td>data</td>
+            </tr>
+            <tr>
+                <td>data</td>
+                <td>data</td>
+                <td>data</td>
+            </tr>
+
+        </thead>
+
+       </table>
+
+        
+       <h1>complex table structure</h1>
+
+
+       <table border="2">
+        <thead>
+            <tr>
+                <th colspan="5">Numbers</th>
+            </tr>
+            </thead>
+             <tbody>
+            <tr>
+                 <td rowspan="2">1</td>
+                 <td>2</td>
+                 <td>3</td>
+                 <td>4</td>
+                 <td>5</td>
+            </tr>
+
+            <tr>
+                <td>6</td>
+                <td colspan="3">7</td>
+            </tr>
+
+            <tr>
+                <td>8</td>
+                <td>9</td>
+                <td rowspan="2">10</td>
+                <td>11</td>
+                <td>12</td>
+            </tr>
+
+            <tr>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+            </tr>
+             </tbody>
+
+       </table>
+
+       <h1>Time Table</h1>
+
+       <table border="2">
+        <thead>
+            <tr>
+                <th colspan="6">TimeTable</th>
+            </tr>
+        </thead>
+        <tbody>
+           <tr>
+            <td rowspan="6">Hours</td>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thurs</th>
+            <th>Fri</th>
+            </tr>
+
+            <tr>
+                <td>science</td>
+                <td>maths</td>
+                <td>science</td>
+                <td>maths</td>
+                <td>Arts</td>
+            </tr>
+
+            <tr>
+                <td>science</td>
+                <td>maths</td>
+                <td>science</td>
+                <td>maths</td>
+                <td>Arts</td>
+            </tr>
+
+            <tr>
+                <th colspan="6">Lunch</th>
+            </tr>
+
+            <tr>
+                <td>science</td>
+                <td>maths</td>
+                <td>science</td>
+                <td>maths</td>
+                <td rowspan="2">project</td>
+            </tr>
+
+            <tr>
+                <td>science</td>
+                <td>maths</td>
+                <td>science</td>
+                <td>maths</td> 
+            </tr>
+        </tbody>
+       </table>
+
+
+       <h1>Advanced table with summary</h1>
+
+       <table border="2">
+        <thead>
+            <tr>
+                <th colspan="2">Student name</th>
+                <th colspan="3">Labs</th>
+                <th rowspan="2">Avgg</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                
+                <th>First</th>
+                <th>Last</th>
+                <th>Lab 1</th>
+                <th>Lab 2</th>
+                <th>Lab 3</th>
+                
+             </tr>
+
+             <tr>
+                <td>sole</td>
+                <td>rosenberg</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100.0</td>
+             </tr>
+
+             <tr>
+                <td>Frank</td>
+                <td>Rizzo</td>
+                <td>50</td>
+                <td>60</td>
+                <td>90</td>
+                <td>66.6</td>
+             </tr>
+
+             <tr>
+                <td>Ali</td>
+                <td>kam</td>
+                <td>90</td>
+                <td>80</td>
+                <td>60</td>
+                <td>76.6</td>
+             </tr>
+
+             <tr>
+                <th rowspan="2">summary</th>
+                <th>Avg</th>
+                <td>80.0</td>
+                <td>80.0</td>
+                <td>83.3</td>
+                <td>81.1</td>
+             </tr>
+
+             <tr>
+                <th>Min</th>
+                <td>50</td>
+                 <td>60</td>
+                 <td>60</td>
+                 <td>66.6</td>
+
+        </tr>
+        </tbody>
+          
+
+       </table>
+</body>
+</html>
